@@ -33,4 +33,5 @@ metadata <- data.frame(Title = c("High multiplicity-of-infection CRISPRi screen 
                                      "lowmoi_example_data.rda",
                                      "parse_example.zip"),
                        Tags = c("high-MOI", "high-MOI", "low-MOI", "low-MOI"))
-write.csv()
+
+write.csv(metadata, file="inst/extdata/metadata.csv", row.names = FALSE)
