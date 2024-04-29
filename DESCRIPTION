@@ -17,7 +17,7 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.1
-biocViews: SequencingData, SingleCellData
+biocViews: SequencingData, SingleCellData, ExperimentHub
 URL: https://timothy-barry.github.io/sceptre-book/, https://github.com/Katsevich-Lab/sceptre
 BugReports: https://github.com/Katsevich-Lab/sceptre/issues
 Depends: 
