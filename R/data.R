@@ -4,19 +4,13 @@
 #'
 #' The example data are stored in a list containing the following components:
 #' - `response_matrix`: the gene-by-cell expression matrix
+#' - `grna_target_data_frame`: the gRNA target data frame corresponding to the example high MOI data. The data frame contains the columns `grna_id` (ID of an individual gRNA), `grna_target` (genomic target of the gRNA), `chr` (target chromosome), `start` (start coordinate of target location), and `end` (end coordinate of target location).
 #' - `grna_matrix`: the gRNA-by-cell expression matrix
 #' - `extra_covariates`: a data frame containing a single column, `batch`, specifying the batch in which each cell was sequenced (`batch_1` or `batch_2`)
 #' - `gene_names`: the human-readable name of each gene
 #'
 #' @usage data(highmoi_example_data)
-"highmoi_example_data"
-
-#' gRNA target data frame
-#'
-#'
-#' The gRNA target data frame corresponding to the example high MOI data. The data frame contains the columns `grna_id` (ID of an individual gRNA), `grna_target` (genomic target of the gRNA), `chr` (target chromosome), `start` (start coordinate of target location), and `end` (end coordinate of target location).
-#' @usage data(grna_target_data_frame_highmoi)
-"grna_target_data_frame_highmoi"
+# "highmoi_example_data"
 
 #' Example low-MOI data
 #'
@@ -29,4 +23,4 @@
 #' - `extra_covariates`: a data frame with a single column, `bio_rep`, specifying the biological replicate of each cell (`rep_1`, `rep_2`, or `rep_3`)
 #'
 #' @usage data(lowmoi_example_data)
-"lowmoi_example_data"
+# "lowmoi_example_data"

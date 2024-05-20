@@ -1,4 +1,4 @@
-Package: sceptredata
+Package: sceptrehub
 Title: Example data for the `sceptre` and `ondisc` packages
 Version: 0.99.0
 Authors@R: 
@@ -20,8 +20,11 @@ RoxygenNote: 7.3.1
 biocViews: SequencingData, SingleCellData, ExperimentHub
 URL: https://timothy-barry.github.io/sceptre-book/, https://github.com/Katsevich-Lab/sceptre
 BugReports: https://github.com/Katsevich-Lab/sceptre/issues
-Depends: 
-    R (>= 4.1)
+Depends:
+    ExperimentHub,
+    AnnotationHub,
+    BiocManager,
+    R (>= 4.4)
 Suggests:
   Matrix,
   rmarkdown,
